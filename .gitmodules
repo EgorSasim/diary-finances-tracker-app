@@ -1,0 +1,11 @@
+[submodule "diary-finances-tracker-front"]
+	path = "diary-finances-tracker"
+	url = "https://github.com/EgorSasim/diary-finances-tracker-front"
+
+[submodule "diary-finances-tracker-server"]
+	path = "diary-finances-tracker-server"
+	url = "https://github.com/EgorSasim/diary-finances-tracker-server"
+
+[submodule "diary-finances-tracker-databas"]
+	path = "diary-finances-tracker-database"
+	url = "https://github.com/EgorSasim/diary-finances-tracker-database"

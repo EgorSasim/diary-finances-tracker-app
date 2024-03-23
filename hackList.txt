@@ -1,0 +1,13 @@
+ADD SUBMODULES: 
+git remote add submodule1 https://github.com/user/submodule1.git
+in .gitmodules file: 
+[submodule "submodule1"]
+	path = "submodule1"
+	url = "https://github.com/user/submodule1.git"
+
+UPDATE SUBMODULES:
+git submodule update --init --recursive 
+/////////////////////////////////////////
+
+git submodule foreach -- to make command in each submodule
+git submodule sync -- update submodules to latest version
