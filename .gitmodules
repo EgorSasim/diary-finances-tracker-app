@@ -1,5 +1,5 @@
 [submodule "diary-finances-tracker-front"]
-	path = "diary-finances-tracker"
+	path = "diary-finances-tracker-front"
 	url = "https://github.com/EgorSasim/diary-finances-tracker-front"
 
 [submodule "diary-finances-tracker-server"]

@@ -1,0 +1,20 @@
+{
+  "name": "diploma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:front": "cd ./diary-finances-tracker-front && npm run start",
+    "start:back": "cd ./diary-finances-tracker-server && npm run start:dev",
+    "start:database": " ./diary-finances-tracker-database/postgresScript.sh",
+    "start": "concurrently \"npm run start:front\" \"npm run start:back\" \"npm run start:database\"",
+    "build:front": "cd ./diary-finances-tracker-front && npm run build",
+    "build:back": "cd ./diary-finances-tracker-server && npm run build",
+    "build": "npm run build:front && npm run build:back"
+  },
+  "author": "Egor Sasim",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
