@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" modified="2024-04-20T10:56:23.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="pFmvTJPaRX-rMwhrckEB" version="24.2.5" type="device">
+  <diagram name="Страница — 1" id="bAj2kT3T3CtggLpthVlA">
+    <mxGraphModel dx="1296" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-1" value="Рабочая станция клиента" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="204" y="50" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-2" value="Браузер Google Chrome&amp;nbsp;&lt;div&gt;&lt;span style=&quot;font-family: Roboto, Ubuntu, Arial, sans-serif; font-size: 13px; text-align: start;&quot;&gt;122.0.6261.94&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="lPqvsxxgGx5E3BAOi4hb-1">
+          <mxGeometry width="100" height="80" relative="1" as="geometry">
+            <mxPoint x="10" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-3" value="Рабочая станция гостя" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="494" y="50" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-4" value="Браузер Google Chrome&amp;nbsp;&lt;div&gt;&lt;span style=&quot;font-family: Roboto, Ubuntu, Arial, sans-serif; font-size: 13px; text-align: start;&quot;&gt;122.0.6261.94&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="lPqvsxxgGx5E3BAOi4hb-3">
+          <mxGeometry width="100" height="80" relative="1" as="geometry">
+            <mxPoint x="10" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-5" value="Интернет канал" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="240" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-6" value="https" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;align=center;verticalAlign=bottom;endFill=0;rounded=0;exitX=0;exitY=0;exitDx=140;exitDy=70;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.765;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lPqvsxxgGx5E3BAOi4hb-1" target="lPqvsxxgGx5E3BAOi4hb-5">
+          <mxGeometry x="-0.0143" y="3" relative="1" as="geometry">
+            <mxPoint x="454" y="400" as="sourcePoint" />
+            <mxPoint x="604" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-7" value="https" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;align=center;verticalAlign=bottom;endFill=0;rounded=0;exitX=0;exitY=0;exitDx=140;exitDy=70;exitPerimeter=0;entryX=0;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="lPqvsxxgGx5E3BAOi4hb-3" target="lPqvsxxgGx5E3BAOi4hb-5">
+          <mxGeometry x="0.0387" y="-5" relative="1" as="geometry">
+            <mxPoint x="404" y="180" as="sourcePoint" />
+            <mxPoint x="454" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-8" value="https" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;align=center;verticalAlign=bottom;endFill=0;rounded=0;exitX=0;exitY=0;exitDx=50;exitDy=90;exitPerimeter=0;entryX=0.06;entryY=0.524;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lPqvsxxgGx5E3BAOi4hb-5" target="lPqvsxxgGx5E3BAOi4hb-12">
+          <mxGeometry x="-0.0101" y="3" relative="1" as="geometry">
+            <mxPoint x="394" y="310" as="sourcePoint" />
+            <mxPoint x="395" y="336" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-12" value="Роутер" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="340" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-13" value="Сервер веб-приложения, архитектура x64" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="118" y="490" width="216" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-20" value="&lt;span style=&quot;text-align: center;&quot;&gt;ОС Linux Ubuntu 22.04 LTS (x64)&lt;/span&gt;" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="lPqvsxxgGx5E3BAOi4hb-13">
+          <mxGeometry x="18" y="61.94" width="180" height="248.06" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-22" value="Node.js 21.6.2 (x64)" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="lPqvsxxgGx5E3BAOi4hb-20">
+          <mxGeometry x="22.92" y="62.6996456" width="134.17" height="36.52435440000001" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-23" value="Angular CLI 17.0.10" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="lPqvsxxgGx5E3BAOi4hb-20">
+          <mxGeometry x="22.92" y="109.1464" width="134.17" height="36.931172800000006" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-24" value="NestJS CLI 10.3.2" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="lPqvsxxgGx5E3BAOi4hb-20">
+          <mxGeometry x="22.91" y="158.7584" width="134.17" height="39.6896" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-40" value="DFTClient.js" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="lPqvsxxgGx5E3BAOi4hb-20">
+          <mxGeometry x="22.92" y="208.06" width="137.08" height="21.94" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-26" value="Сервер базы данных, архитектура x64" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="490" width="230" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-32" value="https" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;align=center;verticalAlign=bottom;endFill=0;rounded=0;exitX=1.04;exitY=0.718;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0;entryDx=0;entryDy=103;entryPerimeter=0;" edge="1" parent="1" source="lPqvsxxgGx5E3BAOi4hb-12" target="lPqvsxxgGx5E3BAOi4hb-13">
+          <mxGeometry x="-0.0143" y="3" relative="1" as="geometry">
+            <mxPoint x="204" y="430" as="sourcePoint" />
+            <mxPoint x="294" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-33" value="https" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;align=center;verticalAlign=bottom;endFill=0;rounded=0;exitX=1.02;exitY=0.341;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0;entryDx=0;entryDy=103;entryPerimeter=0;" edge="1" parent="1" source="lPqvsxxgGx5E3BAOi4hb-12" target="lPqvsxxgGx5E3BAOi4hb-26">
+          <mxGeometry x="-0.0143" y="3" relative="1" as="geometry">
+            <mxPoint x="531" y="430" as="sourcePoint" />
+            <mxPoint x="400" y="528" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="426" y="440" />
+              <mxPoint x="573" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-35" value="&lt;span style=&quot;text-align: center;&quot;&gt;ОС Linux Ubuntu 22.04 LTS (x64)&lt;/span&gt;" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="479.5" y="550" width="191" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-36" value="СУБД PostgreSQL 16.2 (x64)" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="lPqvsxxgGx5E3BAOi4hb-35">
+          <mxGeometry width="150" height="60" relative="1" as="geometry">
+            <mxPoint x="15" y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-41" value="DFTClient.sql" style="fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="lPqvsxxgGx5E3BAOi4hb-35">
+          <mxGeometry x="14.5" y="148.02" width="155.5" height="21.94" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
