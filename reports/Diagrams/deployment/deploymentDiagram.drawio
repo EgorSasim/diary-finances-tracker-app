@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T10:14:52.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="dfHGM7FmxW7C01sk1v_W" version="24.4.4" type="device">
+<mxfile host="app.diagrams.net" modified="2024-05-23T21:08:51.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="KoLY3cY-xX4eLQKyAi_H" version="24.4.4" type="device">
   <diagram name="Страница — 1" id="bAj2kT3T3CtggLpthVlA">
-    <mxGraphModel dx="917" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="629" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
             <mxPoint x="10" y="50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lPqvsxxgGx5E3BAOi4hb-5" value="Интернет канал" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-5" value="Интернет-канал" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="314" y="240" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lPqvsxxgGx5E3BAOi4hb-6" value="https" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;align=center;verticalAlign=bottom;endFill=0;rounded=0;exitX=0;exitY=0;exitDx=140;exitDy=70;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.765;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lPqvsxxgGx5E3BAOi4hb-1" target="lPqvsxxgGx5E3BAOi4hb-5" edge="1">
@@ -68,7 +68,7 @@
         <mxCell id="lPqvsxxgGx5E3BAOi4hb-26" value="Сервер базы данных, архитектура x64" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="460" y="490" width="230" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="lPqvsxxgGx5E3BAOi4hb-32" value="https" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;align=center;verticalAlign=bottom;endFill=0;rounded=0;exitX=1.04;exitY=0.718;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0;entryDx=0;entryDy=103;entryPerimeter=0;" parent="1" source="lPqvsxxgGx5E3BAOi4hb-12" target="lPqvsxxgGx5E3BAOi4hb-13" edge="1">
+        <mxCell id="lPqvsxxgGx5E3BAOi4hb-32" value="https" style="endArrow=none;html=1;endSize=12;startArrow=none;startSize=14;startFill=0;align=center;verticalAlign=bottom;endFill=0;rounded=0;exitX=1;exitY=0.718;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0;entryDx=0;entryDy=103;entryPerimeter=0;" parent="1" source="lPqvsxxgGx5E3BAOi4hb-12" target="lPqvsxxgGx5E3BAOi4hb-13" edge="1">
           <mxGeometry x="-0.0397" relative="1" as="geometry">
             <mxPoint x="204" y="430" as="sourcePoint" />
             <mxPoint x="294" y="480" as="targetPoint" />
